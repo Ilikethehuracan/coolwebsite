@@ -1,0 +1,239 @@
+.he1{ 
+    background-color: rgb(16, 16, 160);
+    display: flex;
+    flex-direction: row;
+}
+.te1{ 
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    padding: 5px;
+    cursor: default;
+    transition-duration: 0.7s;
+}
+.img_1{ 
+    color: white;
+    position:relative;
+    left: 450px;
+    height: 70px;
+}
+.p1{ 
+    position: absolute;
+    right: 403px;
+    top: 15px;
+}
+.p2{ 
+    position: absolute;
+    right: 210px;
+    top: 15px;
+}
+.p3{ 
+    position: absolute;
+    right: 125px;
+    top: 15px;
+}
+.p4{ 
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+h1{ 
+    font-family: 'Zen Dots'
+}
+.h1_1{ 
+    position: absolute;
+    left: 460px;
+    top: 80px;
+    color:  turquoise;
+    cursor: default;
+    transition-duration: 0.3s;
+}
+.te1:hover{ 
+    text-decoration: underline;
+    border: none;
+    background-color: white;
+    color: rgb(16, 16, 160);
+}
+.p1:hover{ 
+    height: 38px;
+    width: 77.55px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.p2:hover{ 
+    height: 38px;
+    width: 194.89;
+}
+.p3:hover{ 
+    height: 38px;
+    width: 87.13;
+}
+.p4:hover{ 
+    height: 38px;
+    width: 117.02;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+body{
+    overflow-x: hidden;
+}
+.h1_1:hover{ 
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+.he2{ 
+    height: 60px;
+    margin: 0;
+    background: linear-gradient(to right, white, whitesmoke, aqua, rgba(10, 10, 226, 0.747), blue);
+    background-size: 400% 400%;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.h1_2{ 
+    font-family: 'Bangers';
+    color: white;
+    font-size: 60px;
+    cursor: default;
+    position: absolute;
+    left: 505px;
+    transition-duration: 0.3s;
+}
+.div1{ 
+    background-color: rgb(16, 16, 160);
+    height: 443px;
+}
+.hrs{ 
+    border: 10px dashed aqua;
+    padding: 0px;
+    margin: 0;
+    background-color: rgb(16, 16, 160);
+}
+.h1_2:hover{ 
+    text-decoration:underline;
+    transform: scale(1.1);
+}
+.rblxp{ 
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    width: 1000px;
+    position: absolute;
+    left: 30px;
+    cursor: default;
+    font-family: 'Comfortaa', cursive;
+}
+.rblximg{ 
+    height: 200px;
+    transform: rotate(10deg);
+    position: absolute;
+    right: 20px;
+    top: 300px;
+    border-left: 5px solid blue;
+    box-shadow: 5px 5px 5px white;
+    border-top: 5px solid blue;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.rblxp:hover{ 
+    text-decoration: underline;
+}
+.rblximg:hover{ 
+    border-right: 5px solid blue;
+    box-shadow: -5px -5px 5px white;
+    border-bottom: 5px solid blue;
+    border-top: none;
+    border-left: none;
+}
+.div2{ 
+    background-color: rgb(16, 16, 160);
+    height: 443px;
+}
+.h1_3{ 
+    font-family: 'Bangers';
+    color: white;
+    font-size: 60px;
+    cursor: default;
+    position: absolute;
+    left: 530px;
+    transition-duration: 0.3s;
+}
+.h1_3:hover{ 
+    text-decoration:underline;
+    transform: scale(1.1);
+}
+.devp{ 
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    width: 500px;
+    position: absolute;
+    left: 400px;
+    cursor: default;
+    font-family: 'Comfortaa', cursive;
+    top: 700px;
+    text-align: center;
+}
+.devp:hover{ 
+    text-decoration: underline;
+}
+.devimg{ 
+    height: 200px;
+    position: absolute;
+    left: 500px;
+    top: 850px;
+    border-left: 5px solid blue;
+    box-shadow: 5px 5px 5px white;
+    border-top: 5px solid blue;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.devimg:hover{ 
+    border-right: 5px solid blue;
+    box-shadow: -5px -5px 5px white;
+    border-bottom: 5px solid blue;
+    border-top: none;
+    border-left: none;
+}
+@keyframes change{ 
+    0%{ 
+        background-position: 0% 50%;
+    }
+    50%{ 
+        background-position: 100% 50%;
+    }
+    100%{ 
+        background-position: 0% 50%;
+    }
+}
+.B1{ 
+    background-color: white;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    font-weight: 600;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 5px blue;
+    border-top: 2px solid blue;
+    border-left: 2px solid blue;
+    border-right: none;
+    border-bottom: none;
+}
+.B1:hover{ 
+    text-decoration: underline;
+    background-color: blue;
+    color: white;
+    box-shadow: -2px -2px 5px white;
+    border-left: none;
+    border-top: none;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+button:focus{ 
+    outline: none;
+}
